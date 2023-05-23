@@ -9,15 +9,25 @@ body{
 }
 
 .caja{
-    display: inline-block;
-    width: 100%; /* Para ocupar todo el ancho del encabezado */
-    
+    margin: 0 auto;
+    color: aqua; 
+    text-align: center; 
+}
+
+.caja h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.caja h2{
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .container {
     width: 940px;
     margin: 0 auto;
     display: flex;
+    padding-bottom: 100px;
 }
   
 .left {
@@ -118,4 +128,22 @@ h1{
     background-color: gray;
     color: white;
     transform: scale(1.2);
+}
+
+footer{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(8, 8, 61);
+    padding: 40px;
+}
+
+footer h1{
+    color: white;
+    font-size: 18px;
+}
+
+footer h2{
+    color: white;
+    font-size: 14px;
 }
