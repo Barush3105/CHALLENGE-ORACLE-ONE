@@ -8,12 +8,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
+    <main>
         <header>
             <div class="caja">
                 <h1><img src="Logo_Encriptador.png" alt="Logo de la página"></h1>
             </div> 
         </header>
-
+        <body>
+            <div class="container">
+              <div class="left">
+                <textarea id="message" placeholder="Ingresa tu mensaje aquí"></textarea>
+                <button id="Boton-Encriptar">Encriptar</button>
+                <button id="Boton-Desencriptar">Desencriptar</button>
+              </div>
+              <div class="right">
+                <img id="image" src="SinMensaje.png" alt="Sin mensaje">
+                <p id="messageText">No se ha encontrado ningún mensaje</p>
+              </div>
+            </div>
+          
+            <script src="script.js"></script>
+        </main>
     </body>
 </html>
