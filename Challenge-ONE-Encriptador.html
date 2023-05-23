@@ -17,13 +17,18 @@
         <body>
             <div class="container">
               <div class="left">
-                <textarea id="message" placeholder="Ingresa tu mensaje aquí"></textarea>
-                <button id="Boton-Encriptar">Encriptar</button>
-                <button id="Boton-Desencriptar">Desencriptar</button>
+                <textarea id="message" cols="100" rows="10" placeholder="Ingresa tu mensaje aquí"></textarea>
+                <div class = "botones">
+                    <button id="Boton-Encriptar">Encriptar</button>
+                    <button id="Boton-Desencriptar">Desencriptar</button>
+                </div>
               </div>
               <div class="right">
-                <img id="image" src="SinMensaje.png" alt="Sin mensaje">
-                <p id="messageText">No se ha encontrado ningún mensaje</p>
+                <div class = "sinmensaje">
+                    <img id="image" src="SinMensaje.png" alt="Sin mensaje">
+                </div>
+                <h1 id="messageText">No se ha encontrado ningún mensaje</h1>
+                <h2>Ingrese algún mensaje para encriptar o desencriptar</h2>
               </div>
             </div>
           
