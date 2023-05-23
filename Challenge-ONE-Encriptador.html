@@ -6,6 +6,9 @@
         <title>CHALLENGE ONE - Encriptador</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <main>
@@ -18,17 +21,21 @@
             <div class="container">
               <div class="left">
                 <textarea id="message" cols="100" rows="10" placeholder="Ingresa tu mensaje aquí"></textarea>
+                <div class = "MensajeImportante">
+                    <p>🚫Recuerda no poner letras mayúsculas ni acentos.</p>
+                </div>
                 <div class = "botones">
                     <button id="Boton-Encriptar">Encriptar</button>
                     <button id="Boton-Desencriptar">Desencriptar</button>
                 </div>
+                
               </div>
               <div class="right">
                 <div class = "sinmensaje">
                     <img id="image" src="SinMensaje.png" alt="Sin mensaje">
+                    <h1 id="messageText">No se ha encontrado ningún mensaje</h1>
+                    <h2>Ingrese algún mensaje para encriptar o desencriptar</h2>
                 </div>
-                <h1 id="messageText">No se ha encontrado ningún mensaje</h1>
-                <h2>Ingrese algún mensaje para encriptar o desencriptar</h2>
               </div>
             </div>
           
