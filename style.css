@@ -1,5 +1,7 @@
 header {
-    width: 200px; /* Tamaño del encabezado */;
+    width: 940px; /* Tamaño del encabezado */;
+    background-color: rgb(151, 26, 26);
+    margin: 0 auto;
 }
 
 body{
@@ -9,6 +11,7 @@ body{
 .caja{
     display: inline-block;
     width: 100%; /* Para ocupar todo el ancho del encabezado */
+    
 }
 
 .container {
@@ -107,6 +110,7 @@ h1{
 #Boton-Copiar{
     border-color: gray;
     color: gray;
+    margin: 0 auto;
     display: none;
 }
 
