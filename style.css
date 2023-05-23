@@ -7,19 +7,21 @@ body{
 }
 
 .caja{
-    display: block;
-    width: 50%; /* Para ocupar todo el ancho del encabezado */
+    display: inline-block;
+    width: 100%; /* Para ocupar todo el ancho del encabezado */
 }
 
 .container {
+    width: 940px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
   
 .left {
-    width: 700px;
+    width: 620px;
+    text-align: center;
     padding: 20px;
+    margin: 0 10px;
 }
   
 textarea {
@@ -50,7 +52,6 @@ button {
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
-    color: black;
     border-radius: 15px;
     transition: 0.7s all;
     cursor: pointer;
@@ -58,6 +59,7 @@ button {
   
 #Boton-Encriptar{
     border-color: blue;
+    color: blue;
 }
 
 #Boton-Encriptar:hover{
@@ -68,6 +70,7 @@ button {
 
 #Boton-Desencriptar{
     border-color: green;
+    color: green;
 }
 
 #Boton-Desencriptar:hover{
@@ -76,17 +79,23 @@ button {
     transform: scale(1.2);
 }
 
-.right {
-    flex: 1;
+
+
+.rightsinmensaje {
+    width: 220px;
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
 }
   
 .sinmensaje {
-    max-width: 200px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
     margin-bottom: 10px;
+}
+
+.sinmensaje img{
+    margin: 0 auto;
 }
   
 h1{
@@ -95,7 +104,14 @@ h1{
     text-align: center;
 }
 
-h2{
-    font-size: 12;
-    text-align: center;
+#Boton-Copiar{
+    border-color: gray;
+    color: gray;
+    visibility: hidden;
+}
+
+#Boton-Copiar:hover{
+    background-color: gray;
+    color: white;
+    transform: scale(1.2);
 }
