@@ -1,0 +1,8 @@
+header {
+    width: 100px; /* Tamaño del encabezado */;
+}
+
+.caja{
+    display: block;
+    width: 50%; /* Para ocupar todo el ancho del encabezado */
+}
