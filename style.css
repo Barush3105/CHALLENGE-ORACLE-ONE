@@ -107,7 +107,7 @@ h1{
 #Boton-Copiar{
     border-color: gray;
     color: gray;
-    visibility: hidden;
+    display: none;
 }
 
 #Boton-Copiar:hover{
